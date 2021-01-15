@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { DeveloperThurmanComponent } from './developer-thurman/developer-thurman.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DeveloperThurmanComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
