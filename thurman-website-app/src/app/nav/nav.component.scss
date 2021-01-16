@@ -4,3 +4,17 @@
 .dropdown-menu {
    outline: 0;
 }
+
+.active  {
+    outline:0;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+button.nav-button:active:focus {
+    outline:0;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
