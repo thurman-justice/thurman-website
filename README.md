@@ -8,4 +8,7 @@ my personal website
 4. ~~resume pdf download~~
 5. cleanup inline styles
 6. ~~contact page with email links~~
-7. about page
+7. ~~about page~~
+8. ~~Make Mobile Friendly~~
+9. Darken bg-light
+10. Clean up contact page

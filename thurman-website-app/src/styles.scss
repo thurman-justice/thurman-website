@@ -1,6 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+$enable-rounded: false;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
-/* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+
+.bg-app-grey {
+    background: #e8e8e8;
+}
+
+.bg-app-success{
+    background-color: #0763de;
+}
+
+.btn-app-success{
+    background-color: #0763de;
+}

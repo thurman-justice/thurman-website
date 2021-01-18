@@ -22,10 +22,10 @@ export class DeveloperThurmanComponent implements OnInit {
       sectionHeader: 'Recent Projects',
       sectionTexts: [
           'Migration of ESB Monolithic Application to Microservice Architecture',
-          'Full Stack Delivery of Modernized <a href="https://cignaforbrokers.com">Cigna&reg; Broker Portal</a>',
+          'Full Stack Delivery of Modernized <a class="text-dark" href="https://cignaforbrokers.com">Cigna&reg; Broker Portal</a>',
           'Implementation of Numerous Client Initiatives',
           'Frontend Domain and Workflow Management & Reporting Application',
-          'This Website!'
+          '<a href="https://github.com/thurman-justice/thurman-website" class="text-dark">This Website!</a>'
       ]
     },
     {
