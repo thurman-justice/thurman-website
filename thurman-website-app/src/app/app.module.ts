@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { DeveloperThurmanComponent } from './developer-thurman/developer-thurman.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
-import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     DeveloperThurmanComponent,
     NavComponent,
-    ContactComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
