@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-developer-thurman',
+  standalone: false,
   templateUrl: './developer-thurman.component.html',
   styleUrls: ['./developer-thurman.component.scss']
 })
-export class DeveloperThurmanComponent implements OnInit {
+export class DeveloperThurmanComponent {
 
   developerSections= [
     {
@@ -73,10 +74,4 @@ export class DeveloperThurmanComponent implements OnInit {
       ]
     }
   ];
-  
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
