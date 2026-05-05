@@ -1,15 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
+  standalone: false,
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.scss']
 })
-export class NavComponent implements OnInit {
-
-  constructor() { }
+export class NavComponent {
   public isMenuCollapsed = true;
-  ngOnInit(): void {
-  }
-
 }
