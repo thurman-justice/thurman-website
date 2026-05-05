@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'about', component: AboutComponent}
+  {path: '', title: 'Thurman Justice - Home', component: HomeComponent},
+  {path: 'about', title: 'Thurman Justice - About', component: AboutComponent}
 ];
 
 @NgModule({
