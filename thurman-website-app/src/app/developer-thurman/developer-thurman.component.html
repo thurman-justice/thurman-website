@@ -1,12 +1,10 @@
 <div class="container-md pb-5">
     <div class="row">
         <div class="col-xs-12 col-md-5">
-            <p class="lead text-left hero-description"><strong>Passionate, resourceful, and
-                    results-driven
-                    <strong>technology professional</strong> with 8 years healthcare IT experience.
-                    Developing projects requiring excellent
-                    design, coding, analysis, problem solving,
-                    and implementation skills. </strong></p>
+            <p class="lead text-left hero-description"><strong>Senior Engineering Manager
+            </strong></p><p class="lead text-left hero-description"> I lead platform transformation at the intersection of distributed systems
+            architecture and cross-functional team leadership — building the systems
+            and the teams that run them in high-stakes, regulated environments.</p>
         </div>
     </div>
 </div>
@@ -19,7 +17,24 @@
                 <hr class="w-50" />
             </em>
         </div>
-        <div class="col-md-10 col-xs-12">
+        <div *ngIf="s.cards" class = "row row-cols-1 row-cols-sm-3 justify-content-center g-4">
+            <div *ngFor="let c of s.cardContents" class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{c.title}}</h5>
+                        <p class="card-text">{{c.body}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class = "row justify-content-center">
+                            <div *ngFor="let n of c.nibs" class="col-auto">
+                                <span class="badge bg-primary">{{n}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="s.cards == false" class="col-md-10 col-xs-12">
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-md-9">
                     <p *ngFor="let st of s.sectionTexts" class="lead"><strong [innerHtml]="st"></strong></p>
